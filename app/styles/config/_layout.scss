@@ -1,0 +1,49 @@
+
+$header-height: 40px;
+
+.center-block {
+  text-align: center;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+.center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center-text {
+  text-align: center;
+}
+.expand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 2rem;
+}
+
+.content {
+  position: absolute;
+  top: 2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

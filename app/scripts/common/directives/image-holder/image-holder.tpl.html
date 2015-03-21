@@ -1,0 +1,12 @@
+<div class="image-holder" ng-class="!isLoaded && holderClass">
+  <img class="image-holder__item"
+  ng-src="{{src}}"
+  ng-show="isLoaded"
+  ng-class="[ isLoaded ? 'image-holder__item--loaded' : '' , fullSize]"></img>
+  <div
+    ng-hide="isLoaded"
+    ng-class="{'image-holder__no-item--loaded': isLoaded }"
+    class="image-holder__no-item center-block">
+    <span class="fa fa-2x fa-refresh fa-spin center"></span>
+  </div>
+</div>
