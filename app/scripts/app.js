@@ -10,6 +10,7 @@
  */
 angular
   .module('imagesGalleryApp', [
+    'imagesGalleryApp.templates',
     'ngAnimate',
     'ngCookies',
     'ngResource',
