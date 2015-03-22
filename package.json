@@ -1,7 +1,10 @@
 {
   "name": "imagesgallery",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.11.2",
+    "gzippo": "^0.2.0"
+  },
   "devDependencies": {
     "chai": "^2.1.2",
     "cucumber": "^0.4.8",
