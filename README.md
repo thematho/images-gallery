@@ -4,6 +4,7 @@ Demos for images gallery on AngularJS
 ## Description
 
 This proyect contains demos for differents approaches for creating images galleries on AngularJS
+[See the project deployed](https://images-gallery.herokuapp.com/#/main/cubeGallery)
 
 ## Technologies
 
