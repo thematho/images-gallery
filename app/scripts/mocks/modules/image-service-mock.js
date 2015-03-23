@@ -21,220 +21,220 @@ angular.module('imagesGalleryMocks.imageService', [])
 angular.module('imagesGalleryMocks.imageService')
   .constant('MOCKED_IMAGES', {
     images: [{
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/1.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/2.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/3.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/4.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/5.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/6.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/7.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/8.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/9.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/10.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/11.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/12.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/13.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/14.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/15.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/16.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/17.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/18.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/19.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/20.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/21.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/22.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/23.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/24.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/25.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/26.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/27.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/28.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/29.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/30.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/31.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/32.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/33.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/34.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/35.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/36.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/37.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/38.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/39.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/40.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/41.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/42.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/43.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/44.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/45.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/46.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/47.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/48.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/49.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/50.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/51.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/52.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/53.jpg'
     }, {
-      owner: '',
-      description: '',
+      owner: 'Sample Owner',
+      description: 'Image description',
       imageUrl: '/images/image-service/54.jpg'
     }]
   });
