@@ -1,0 +1,14 @@
+.menu {
+
+}
+
+.menu__list {
+  padding: .2rem;
+}
+
+.menu__list__item {
+  @extend .button;
+  width: 100%;
+  box-sizing: border-box;
+  list-style: none;
+}

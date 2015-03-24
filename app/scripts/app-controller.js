@@ -9,4 +9,15 @@
  */
 angular
   .module('imagesGalleryApp')
-  .controller('AppCtrl', function() {});
+  .constant('GALLERY_LIST', [
+    {
+      name: 'cube-page',
+      url: 'url',
+      enable: true
+    }
+  ])
+  .controller('AppCtrl', function($scope, GALLERY_LIST) {
+    $scope.options = _.filter(GALLERY_LIST, {
+      enable: true
+    });
+  });

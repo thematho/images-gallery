@@ -5,6 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans' rel='stylesheet' type='text/css'>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -21,9 +22,16 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header"></div>
-    <div class="content expand" ui-view="" ></div>
-
+    <div class="gallery-header center-text">
+      <h1>Images Gallery on AngularJS</h1>
+    </div>
+    <views-menu class="gallery-menu"
+      options="options">
+    </views-menu>
+    <div class="gallery-content expand" ui-view="" ></div>
+    <div class="gallery-footer center-block center-text">
+      <span>Images are property of freeimages if you want to use them please go to: </span><a href="http://www.freeimages.co.uk" rel="nofollow" target="_top" title="Click for the some of the best free photos on the web">Free Stock Photos</a>
+    </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -71,6 +79,7 @@
         <script src="scripts/common/directives/cube-page/cube-page.js"></script>
         <script src="scripts/common/directives/image-holder/image-holder.js"></script>
         <script src="scripts/common/directives/loading-overlay/loading-overlay.js"></script>
+        <script src="scripts/common/directives/views-menu/views-menu.js"></script>
         <script src="scripts/common/directives/directives.js"></script>
         <!-- end directives-->
         <!-- services -->

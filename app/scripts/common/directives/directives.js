@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('imagesGalleryApp.directives', [
+  'imagesGalleryApp.directives.cubePage',
   'imagesGalleryApp.directives.imageHolder',
   'imagesGalleryApp.directives.loadingOverlay',
-  'imagesGalleryApp.directives.cubePage'
+  'imagesGalleryApp.directives.viewsMenu'
 ]);
