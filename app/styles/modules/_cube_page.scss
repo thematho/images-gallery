@@ -4,6 +4,7 @@
 
 $cube-width: 150px;
 $cube-height: 150px;
+$button-set-height: 3rem;
 
 .loading-overlay {
   @extend .expand;
@@ -11,22 +12,44 @@ $cube-height: 150px;
   color: $loading-color;
 }
 
+.cube-page-container {
+  @extend .expand;
+  overflow: hidden;
+}
+
+.cube-page-container__button-set {
+  height: $button-set-height;
+}
+
 .cube-page {
   position: absolute;
+  top: 0;
+  bottom: $button-set-height;
   left: -100%;
   width: 100%;
+  overflow-y: auto;
   opacity: 0;
   justify-content: space-around;
   @include display-flex(flex);
   @include flex-flow(row wrap);
-  @include transition(opacity 1s ease-out, 1s left 1s ease-out);
+  @include transition(opacity .3s ease-out, 0s left .3s ease-out);
+   &.cube-page--current{
+    opacity: 1;
+    left: 0;
+    @include transition-timing-function(ease);
+    &.ng-enter {
+      opacity: 0;
+    }
+    &.ng-leave {
+    }
+  }
 }
 
-.cube-page--current {
-  left: 0;
-  opacity: 1;
-  @include transition(1s opacity 1s ease-in-out);
-}
+// .cube-page--current {
+//   left: 0;
+//   opacity: 1;
+//   @include transition(1s opacity 1s ease-in-out);
+// }
 .cube-page__item-wrapper {
   position: relative;
   width: $cube-width;

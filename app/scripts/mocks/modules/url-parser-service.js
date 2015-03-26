@@ -1,5 +1,10 @@
 'use strict';
-
+/**
+ * @ngdoc service
+ * @name imagesGalleryMocks.utils:
+ * @description
+ * Package
+ */
 angular.module('imagesGalleryMocks.utils')
   .service('urlParser', function() {
 

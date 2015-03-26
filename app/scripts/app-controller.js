@@ -4,15 +4,18 @@
  * @ngdoc controller
  * @name imagesGalleryApp.controller:AppCtrl
  * @description
+ * @description
  *
  * # AppCtrl
+ * Controller of the Application handles globan events and
+ * the views enabled on the MenuSS
  */
 angular
   .module('imagesGalleryApp')
   .constant('GALLERY_LIST', [
     {
       name: 'cube-page',
-      url: 'url',
+      state: 'main.cubeGallery',
       enable: true
     }
   ])

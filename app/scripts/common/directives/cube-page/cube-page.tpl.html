@@ -1,5 +1,5 @@
-<div class="center-text">
-  <div class="cube-page"
+<div class="cube-page-container center-text">
+  <div class="cube-page-container__cube-page cube-page"
     ng-class="{'cube-page--current': key === current }"
     ng-repeat="(key, mediaPage) in mediaPages"
     ng-animate>
@@ -22,7 +22,7 @@
       loading="loading">
     </loading-overlay>
   </div>
-  <div class="button-set">
+  <div class="cube-page-container__button-set button-set">
     <div
       class="button-set__button--prev"
       ng-disabled="loading"
