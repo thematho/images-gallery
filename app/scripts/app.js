@@ -18,6 +18,7 @@ angular
     'ngTouch',
     'ui.router',
     'imagesGalleryApp.main',
+    'imagesGalleryApp.cubeImage',
     'imagesGalleryApp.cubeGallery',
     'imagesGalleryApp.directives',
     'imagesGalleryApp.services'
@@ -39,6 +40,13 @@ angular
       url: '/cubeGallery',
       templateUrl: 'scripts/cube-gallery/cube-gallery.html',
       controller: 'CubeGalleryCtrl',
+      parent: 'main'
+    });
+
+    $stateProvider.state('main.cubeImage', {
+      url: '/cubeImage',
+      templateUrl: 'scripts/cube-image/cube-image.html',
+      controller: 'CubeImageCtrl',
       parent: 'main'
     });
 

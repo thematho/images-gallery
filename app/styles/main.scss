@@ -1,12 +1,13 @@
 // Module import
-
+// Basic config files and base variables
+@import "config/alignment";
 @import "config/layout";
 @import "config/headers";
 @import "config/fonts";
 @import "config/colors";
-
+// Animations
 @import "animations/cube";
-
+// Objectsw
 @import "modules/gallery";
 @import "modules/main_view";
 @import "modules/menu";

@@ -3,4 +3,24 @@
   @extend .expand;
   background-color: rgba(0,0,0,.6);
   color: $loading-color;
+  @include transition(opacity .6s ease-out);
+  &.ng-show {
+    opacity: 1;
+    &.ng-enter {
+      opacity: 0;
+    }
+    &.ng-leave {
+      opacity: 1;
+    }
+  }
+  &.ng-hide {
+      opacity: 0;
+    &.ng-enter {
+      opacity: 1;
+    }
+    &.ng-leave {
+      opacity: 0;
+    }
+  }
+
 }

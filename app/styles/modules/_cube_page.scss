@@ -32,7 +32,7 @@ $button-set-height: 3rem;
   justify-content: space-around;
   @include display-flex(flex);
   @include flex-flow(row wrap);
-  @include transition(opacity .3s ease-out, 0s left .3s ease-out);
+  @include transition(opacity .3s linear, 0s left .3s linear);
    &.cube-page--current{
     opacity: 1;
     left: 0;
@@ -41,15 +41,11 @@ $button-set-height: 3rem;
       opacity: 0;
     }
     &.ng-leave {
+      opacity: 1;
     }
   }
 }
 
-// .cube-page--current {
-//   left: 0;
-//   opacity: 1;
-//   @include transition(1s opacity 1s ease-in-out);
-// }
 .cube-page__item-wrapper {
   position: relative;
   width: $cube-width;
