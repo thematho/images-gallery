@@ -1,6 +1,5 @@
 @import "compass/css3";
 @import "compass/css3/transition";
-@import "compass/css3/transform";
 
 $cube-width: 150px;
 $cube-height: 150px;
@@ -50,10 +49,25 @@ $button-set-height: 3rem;
   position: relative;
   width: $cube-width;
   height: $cube-height;
-
   @include cube($cube-width);
-  &:hover {
+}
+
+// Odd Cubes Items
+.cube-page__item:nth-child(2n+1) {
+  .cube-page__item-wrapper:hover {
+    @extend .cube-animate--right;
+  }
+  .cube-page__text {
+    @include cube-face--left($cube-width);
+  }
+}
+// Even Cubes Items
+.cube-page__item:nth-child(2n) {
+  .cube-page__item-wrapper:hover {
     @extend .cube-animate--left;
+  }
+  .cube-page__text {
+    @include cube-face--right($cube-width);
   }
 }
 
@@ -81,7 +95,6 @@ $button-set-height: 3rem;
   overflow: hidden;
   background-color: $description-bg-color;
   @extend .secondary-font;
-  @include cube-face--right($cube-width);
   .page__text--owner {
     padding: 10px 0;
     background-color: $image-owner-bg-color;

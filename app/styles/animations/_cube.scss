@@ -7,6 +7,10 @@
   @include transform-style(preserve-3d);
 }
 
+.cube-animate--right {
+  @include transform(rotateY(90deg) translate3d(0,0,0));
+}
+
 .cube-animate--left {
   @include transform(rotateY(-90deg) translate3d(0,0,0));
 }
@@ -21,6 +25,10 @@
 
 @mixin cube-face--right($width) {
   @include transform(rotateY(90deg) translateZ($width/2));
+}
+
+@mixin cube-face--left($width) {
+  @include transform(rotateY(-90deg) translateZ($width/2));
 }
 
 .cube--appears {
