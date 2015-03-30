@@ -18,7 +18,7 @@ angular
     'ngTouch',
     'ui.router',
     'imagesGalleryApp.main',
-    'imagesGalleryApp.cubeImage',
+    'imagesGalleryApp.rotatingCube',
     'imagesGalleryApp.cubeGallery',
     'imagesGalleryApp.directives',
     'imagesGalleryApp.services'
@@ -43,10 +43,10 @@ angular
       parent: 'main'
     });
 
-    $stateProvider.state('main.cubeImage', {
-      url: '/cubeImage',
-      templateUrl: 'scripts/cube-image/cube-image.html',
-      controller: 'CubeImageCtrl',
+    $stateProvider.state('main.rotatingCube', {
+      url: '/rotatingCube',
+      templateUrl: 'scripts/rotating-cube/rotating-cube.html',
+      controller: 'RotatingCubeCtrl',
       parent: 'main'
     });
 

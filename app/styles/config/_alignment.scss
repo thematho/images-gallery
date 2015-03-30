@@ -7,63 +7,63 @@ $medium-padding: $medium-margin;
 $large-padding: $large-margin;
 
 // Margins
-.ms { margin: $small-margin !important; }
-.mst { margin-top: $small-margin !important; }
-.msb { margin-bottom: $small-margin !important; }
-.mstb { margin-top: $small-margin !important;
+.mas { margin: $small-margin !important; }
+.mts { margin-top: $small-margin !important; }
+.mbs { margin-bottom: $small-margin !important; }
+.mvs { margin-top: $small-margin !important;
         margin-bottom: $small-margin !important; }
-.msr { margin-right: $small-margin !important; }
-.msl { margin-left: $small-margin !important; }
-.msrl { margin-right: $small-margin !important;
+.mrs { margin-right: $small-margin !important; }
+.mls { margin-left: $small-margin !important; }
+.mhs { margin-right: $small-margin !important;
         margin-left: $small-margin !important; }
 
-.mm { margin: $medium-margin !important; }
-.mmt { margin-top: $medium-margin !important; }
-.mmb { margin-bottom: $medium-margin !important; }
-.mmtb { margin-top: $medium-margin !important;
+.mam { margin: $medium-margin !important; }
+.mtm { margin-top: $medium-margin !important; }
+.mbm { margin-bottom: $medium-margin !important; }
+.mvm { margin-top: $medium-margin !important;
         margin-bottom: $medium-margin !important; }
-.mmr { margin-right: $medium-margin !important; }
-.mml { margin-left: $medium-margin !important; }
-.msrl { margin-right: $medium-margin !important;
+.mrm { margin-right: $medium-margin !important; }
+.mlm { margin-left: $medium-margin !important; }
+.mhm { margin-right: $medium-margin !important;
         margin-left: $medium-margin !important; }
 
-.ml { margin: $large-margin !important; }
-.mlt { margin-top: $large-margin !important; }
-.mlb { margin-bottom: $large-margin !important; }
-.mltb { margin-top: $large-margin !important;
+.mal { margin: $large-margin !important; }
+.mtl { margin-top: $large-margin !important; }
+.mbl { margin-bottom: $large-margin !important; }
+.mvl { margin-top: $large-margin !important;
         margin-bottom: $large-margin !important; }
-.mlr { margin-right: $large-margin !important; }
+.mrl { margin-right: $large-margin !important; }
 .mll { margin-left: $large-margin !important; }
-.msrl { margin-right: $large-margin !important;
+.mhl { margin-right: $large-margin !important;
         margin-left: $large-margin !important; }
 
 // Paddings
-.ps { padding: $small-padding !important; }
-.pst { padding-top: $small-padding !important; }
-.psb { padding-bottom: $small-padding !important; }
-.pstb { padding-top: $small-margin !important;
+.pas { padding: $small-padding !important; }
+.pts { padding-top: $small-padding !important; }
+.pbs { padding-bottom: $small-padding !important; }
+.pvs { padding-top: $small-margin !important;
         padding-bottom: $small-margin !important; }
-.psr { padding-right: $small-padding !important; }
-.psl { padding-left: $small-padding !important; }
-.psrl { padding-right: $small-padding !important;
+.prs { padding-right: $small-padding !important; }
+.pls { padding-left: $small-padding !important; }
+.phs { padding-right: $small-padding !important;
         padding-left: $small-padding !important; }
 
-.pm { padding: $medium-padding !important; }
-.pmt { padding-top: $medium-padding !important; }
-.pmb { padding-bottom: $medium-padding !important; }
-.pstb { padding-top: $medium-padding !important;
+.pam { padding: $medium-padding !important; }
+.ptm { padding-top: $medium-padding !important; }
+.pbm { padding-bottom: $medium-padding !important; }
+.pvm { padding-top: $medium-padding !important;
         padding-bottom: $medium-padding !important; }
-.pmr { padding-right: $medium-padding !important; }
-.pml { padding-left: $medium-padding !important; }
-.pmrl { padding-right: $medium-padding !important;
+.prm{ padding-right: $medium-padding !important; }
+.plm { padding-left: $medium-padding !important; }
+.phm { padding-right: $medium-padding !important;
         padding-left: $medium-padding !important; }
 
-.pl { padding: $large-padding !important; }
-.plt { padding-top: $large-padding !important; }
-.plb { padding-bottom: $large-padding !important; }
-.pltb { padding-top: $large-padding !important;
+.pal { padding: $large-padding !important; }
+.ptl { padding-top: $large-padding !important; }
+.pbl { padding-bottom: $large-padding !important; }
+.pvl { padding-top: $large-padding !important;
         padding-bottom: $large-padding !important; }
-.plr { padding-right: $large-padding !important; }
+.prl { padding-right: $large-padding !important; }
 .pll { padding-left: $large-padding !important; }
-.plrl { padding-right: $large-padding !important;
+.phl { padding-right: $large-padding !important;
         padding-left: $large-padding !important; }

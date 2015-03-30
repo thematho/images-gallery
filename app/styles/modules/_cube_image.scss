@@ -1,0 +1,44 @@
+$cube-width: 150px;
+$cube-height: 150px;
+
+.cube-image-container {
+  @extend .expand;
+  overflow: hidden;
+}
+
+.cube-image {
+  position: relative;
+  display: inline-block;
+  width: $cube-width;
+  height: $cube-height;
+  @include cube($cube-width);
+  @include animation(cube-rotation 4s ease infinite);
+}
+
+.cube-image .image-holder {
+  @extend .cube__face;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid $image-border-color;
+  &:nth-child(1) {
+    @include cube-face--front($cube-width);
+  }
+  &:nth-child(2) {
+    @include cube-face--right($cube-width);
+  }
+  &:nth-child(3) {
+    @include cube-face--back($cube-height);
+  }
+  &:nth-child(4) {
+    @include cube-face--left($cube-width);
+  }
+  &:nth-child(5) {
+    @include cube-face--bottom($cube-height);
+  }
+  &:nth-child(6) {
+    @include cube-face--top($cube-height);
+  }
+}
+

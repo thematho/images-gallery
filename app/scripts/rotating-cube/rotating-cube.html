@@ -1,6 +1,9 @@
 <div class="center-text">
-  <div>
-  </div>
+  <cube-image
+    class="mvl"
+    ng-repeat="(key, mediaPage) in mediaPages"
+    media-page="mediaPage">
+  </cube-image>
 
   <loading-overlay
     loading="loading">
@@ -9,12 +12,7 @@
     <div
       class="button-set__button--prev"
       ng-disabled="loading"
-      ng-click="prevPage()"> Prev Page
-    </div>
-    <div
-      class="button-set__button--next"
-      ng-disabled="loading"
-      ng-click="nextPage()"> Next Page
+      ng-click="prevPage()"> Add Cube
     </div>
   </div>
 </div>

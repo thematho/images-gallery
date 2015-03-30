@@ -2,19 +2,19 @@
 
 /**
  * @ngdoc function
- * @name imagesGalleryApp.cubeImage:CubeImageCtrl
+ * @name imagesGalleryApp.rotatingCube:RotatingCubeCtrl
  * @description
  *
  * @requires imageService
- * # CubeImageCtrl
+ * # RotatingCubeCtrl
  * Controller of the imagesGalleryApp
  */
-angular.module('imagesGalleryApp.cubeImage')
-  .controller('CubeImageCtrl', function($scope, imageService) {
+angular.module('imagesGalleryApp.rotatingCube')
+  .controller('RotatingCubeCtrl', function($scope, imageService) {
     $scope.currentPageIndex = 0;
     $scope.mediaPages = [];
     $scope.loading = true;
-    $scope.results = 10;
+    $scope.results = 6;
 
     function getPage(indexMod) {
       var pageIndex = $scope.currentPageIndex + indexMod;

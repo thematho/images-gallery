@@ -5,8 +5,8 @@ angular
       state: 'main.cubeGallery',
       enable: true
     }, {
-      name: 'cube-image',
-      state: 'main.cubeImage ',
+      name: 'rotating-cube',
+      state: 'main.rotatingCube ',
       enable: true
     }
   ]);

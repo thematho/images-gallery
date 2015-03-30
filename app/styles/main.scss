@@ -5,12 +5,15 @@
 @import "config/headers";
 @import "config/fonts";
 @import "config/colors";
+
 // Animations
 @import "animations/cube";
-// Objectsw
+
+// Objects
 @import "modules/gallery";
 @import "modules/main_view";
 @import "modules/menu";
+@import "modules/cube_image";
 @import "modules/cube_page";
 @import "modules/image_holder";
 @import "modules/buttons";

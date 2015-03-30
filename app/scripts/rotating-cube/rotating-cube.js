@@ -1,5 +1,5 @@
 'use strict';
 
-angular.module('imagesGalleryApp.cubeImage', [
+angular.module('imagesGalleryApp.rotatingCube', [
   'imagesGalleryApp.services.imageService'
   ]);

@@ -1,10 +1,14 @@
 @import "compass/css3/animation";
 @import "compass/css3/transform";
+@import "compass/css3/transition";
 
 @mixin cube($width){
   @include transition(transform .5s cubic-bezier(.17,.67,.38,1));
-  @include transform-origin(width/2 width/2 0);
+  @include transform-origin($width);
   @include transform-style(preserve-3d);
+}
+@mixin cube-wrapper($width){
+  @include transform-origin($width/2, $width/2);
 }
 
 .cube-animate--right {
@@ -14,6 +18,20 @@
 .cube-animate--left {
   @include transform(rotateY(-90deg) translate3d(0,0,0));
 }
+
+.cube-animate--back {
+  @include transform(rotateY(180deg) translate3d(0,0,0));
+}
+
+.cube-animate--bottom {
+  @include transform(rotateX(-90deg) translate3d(0,0,0));
+}
+
+.cube-animate--top {
+  @include transform(rotateX(90deg) translate3d(0,0,0));
+}
+
+
 
 .cube__face {
   @include backface-visibility(hidden);
@@ -31,6 +49,18 @@
   @include transform(rotateY(-90deg) translateZ($width/2));
 }
 
+@mixin cube-face--back($width) {
+  @include transform(rotateY(180deg) translateZ($width/2));
+}
+
+@mixin cube-face--bottom($width) {
+  @include transform(rotateX(-90deg) translateZ($width/2));
+}
+
+@mixin cube-face--top($width) {
+  @include transform(rotateX(90deg) translateZ($width/2));
+}
+
 .cube--appears {
   @include animation(fade-in 3s ease reverse);
 }
@@ -41,5 +71,23 @@
   }
   100% {
     transform: rotateY(0deg);
+  }
+}
+
+@keyframes cube-rotation{
+  16% {
+    @include transform(rotateY(90deg) translate3d(0,0,0));
+  }
+  32% {
+    @include transform(rotateX(-90deg) translate3d(0,0,0));
+  }
+  48% {
+    @include transform(rotateY(-90deg) translate3d(0,0,0));
+  }
+  64% {
+    @include transform(rotateX(90deg) translate3d(0,0,0));
+  }
+  80% {
+    @include transform(rotateY(180deg) translate3d(0,0,0));
   }
 }

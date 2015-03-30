@@ -50,6 +50,7 @@ $button-set-height: 3rem;
   width: $cube-width;
   height: $cube-height;
   @include cube($cube-width);
+  @include cube-wrapper($cube-width);
 }
 
 // Odd Cubes Items
@@ -104,4 +105,3 @@ $button-set-height: 3rem;
     padding: 10px;
   }
 }
-
