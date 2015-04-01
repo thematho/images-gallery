@@ -38,10 +38,7 @@ angular.module('imagesGalleryApp.rotatingCube')
       }
     }
 
-    $scope.nextPage = _.partial(getPage, +1);
-    $scope.prevPage = _.partial(getPage, -1);
-    $scope.firstPage = _.partial(getPage, $scope.currentPageIndex * -1);
-    $scope.currentPage = _.partial(getPage, 0);
+    $scope.addCube = _.partial(getPage, +1);
 
     imageService.getImages(0, $scope.results)
       .then(function(images) {
