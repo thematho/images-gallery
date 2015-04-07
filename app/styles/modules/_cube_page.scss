@@ -3,7 +3,7 @@
 
 $cube-width: 150px;
 $cube-height: 150px;
-$button-set-height: 3rem;
+$button-set-height: 4.5rem;
 
 .loading-overlay {
   @extend .expand;
@@ -17,7 +17,7 @@ $button-set-height: 3rem;
 }
 
 .cube-page-container__button-set {
-  height: $button-set-height;
+  height: auto;
 }
 
 .cube-page {

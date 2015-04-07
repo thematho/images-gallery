@@ -19,19 +19,19 @@
         </div>
     </div>
   </div>
-  <loading-overlay
-    loading="loading">
-  </loading-overlay>
   <div class="cube-page-container__button-set button-set">
     <div
-      class="button-set__button--prev"
+      class="button-set__button--prev btn btn-primary"
       ng-disabled="loading"
       ng-click="prevPage()"> Prev Page
     </div>
     <div
-      class="button-set__button--next"
+      class="button-set__button--next btn btn-primary"
       ng-disabled="loading"
       ng-click="nextPage()"> Next Page
     </div>
   </div>
+  <loading-overlay
+    loading="loading">
+  </loading-overlay>
 </div>

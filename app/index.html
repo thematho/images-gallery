@@ -22,14 +22,14 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="gallery-header center-text">
-      <h1>Images Gallery on AngularJS</h1>
+    <div class="gallery-header center-text modal-header bg-primary">
+      <div class="h1">Images Gallery on AngularJS</div>
     </div>
     <views-menu class="gallery-menu"
       options="options">
     </views-menu>
-    <div class="gallery-content expand" ui-view="" ></div>
-    <div class="gallery-footer center-block center-text"><!--
+    <div class="gallery-content expand modal-body" ui-view="" ></div>
+    <div class="gallery-footer center-block center-text modal-footer bg-info"><!--
       removed Whitespaces
       --><span>Images are property of freeimages if you want to use them please go to: </span><a href="http://www.freeimages.co.uk" rel="nofollow" target="_top" title="Click for the some of the best free photos on the web">Free Stock Photos</a>
     </div>
@@ -53,6 +53,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
@@ -60,9 +61,9 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
-    <script src="bower_components/angular-scenario/angular-scenario.js"></script>
     <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

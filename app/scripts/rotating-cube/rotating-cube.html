@@ -5,14 +5,14 @@
     media-page="mediaPage">
   </cube-image>
 
-  <loading-overlay
-    loading="loading">
-  </loading-overlay>
   <div class="cube-page-container__button-set button-set">
     <div
-      class="button-set__button--prev"
+      class="button-set__button--prev btn btn-primary"
       ng-disabled="loading"
       ng-click="addCube()"> Add Cube
     </div>
   </div>
+  <loading-overlay
+    loading="loading">
+  </loading-overlay>
 </div>

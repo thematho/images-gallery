@@ -1,4 +1,9 @@
-// Module import
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// // Module import
 // Basic config files and base variables
 @import "config/spacing";
 @import "config/layout";
