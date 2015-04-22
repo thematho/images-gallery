@@ -54,19 +54,24 @@ $button-set-height: 4.5rem;
 }
 
 // Odd Cubes Items
-.cube-page__item:nth-child(2n+1) {
-  .cube-page__item-wrapper:hover {
+.cube-page__item:hover:nth-child(2n+1) {
+  .cube-page__item-wrapper {
     @extend .cube-animate--right;
   }
+}
+
+.cube-page__item:nth-child(2n+1) {
   .cube-page__text {
     @include cube-face--left($cube-width);
   }
 }
 // Even Cubes Items
-.cube-page__item:nth-child(2n) {
-  .cube-page__item-wrapper:hover {
+.cube-page__item:hover:nth-child(2n) {
+  .cube-page__item-wrapper {
     @extend .cube-animate--left;
   }
+}
+.cube-page__item:nth-child(2n) {
   .cube-page__text {
     @include cube-face--right($cube-width);
   }
