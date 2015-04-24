@@ -5,11 +5,14 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 // // Module import
 // Basic config files and base variables
-@import "config/spacing";
-@import "config/layout";
-@import "config/headers";
-@import "config/fonts";
 @import "config/colors";
+@import "config/ellipsis";
+@import "config/fonts";
+@import "config/headers";
+@import "config/layout";
+@import "config/spacing";
+
+
 
 // Animations
 @import "animations/cube";

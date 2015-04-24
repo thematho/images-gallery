@@ -1,12 +1,16 @@
 angular
   .module('imagesGalleryApp')
   .constant('GALLERY_LIST', [{
-      name: 'cube-page',
+      name: 'Cube Page',
       state: 'main.cubeGallery',
       enable: true
     }, {
-      name: 'rotating-cube',
+      name: 'Rotating Cube',
       state: 'main.rotatingCube ',
+      enable: true
+    }, {
+      name: 'Slider',
+      state: 'main.slider',
       enable: true
     }
   ]);

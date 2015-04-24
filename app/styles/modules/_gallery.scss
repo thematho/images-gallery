@@ -1,6 +1,5 @@
 
-$header-height: 5rem;
-$menu-width: 11rem;
+$header-height: 10rem;
 $footer-height: 4.5rem;
 $border-radius:.2rem;
 
@@ -9,20 +8,17 @@ $border-radius:.2rem;
   position: absolute;
   width:100%;
   height: $header-height;
-  background-color: $header-bg-color;
+  color: $header-text-color;
   border-radius: $border-radius;
+}
+
+.gallery-header__logo {
+  display: inline;
   text-shadow: 1px 1px 6px black;
 }
 
-.gallery-menu {
-  position: absolute;
-  top: $header-height;
-  bottom: $footer-height;
-  width: $menu-width;
-  text-align: center;
-  border-radius: $border-radius;
-  // background-color: $menu-bg-color;
-  box-shadow: 0 0 5px rgba(1, 1, 1, 0.7);
+.gallery-header__menu {
+  display: inline;
 }
 
 .gallery-content {
@@ -30,19 +26,19 @@ $border-radius:.2rem;
   position: absolute;
   top: $header-height;
   bottom: $footer-height;
-  left: $menu-width;
+  left: 0;
   right: 0;
 }
 
 
 .gallery-footer {
   @extend .secondary-font;
+  @extend .ellipsis;
   position: absolute;
   bottom:0;
   width: 100%;
   height: $footer-height;
   text-align: center;
   border-radius: $border-radius;
-  // background-color: $footer-bg-color;
-  // box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+  font-size: 1rem;
 }

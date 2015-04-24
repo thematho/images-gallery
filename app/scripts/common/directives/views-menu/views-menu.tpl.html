@@ -1,4 +1,4 @@
-<div class="menu">
+<!-- <div class="menu">
   <ul class="menu__list">
     <li class="menu__list__item mstb"
       ng-repeat="option in options">
@@ -8,4 +8,13 @@
         >{{::option.name}}</a>
     </li>
   </ul>
+</div>
+ -->
+
+<div class="menu menu__list">
+  <a class="menu__list__item h2 mstb"
+    ng-repeat="option in options"
+    ui-sref-active="active"
+    ui-sref={{::option.state}}
+    >{{::option.name}}</a>
 </div>

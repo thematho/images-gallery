@@ -1,0 +1,20 @@
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.multi-ellipsis-2 {
+  @extend .ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+.multi-ellipsis-3 {
+  @extend .ellipsis;
+  -webkit-line-clamp: 3;
+}
+
+.multi-ellipsis-4 {
+  @extend .ellipsis;
+  -webkit-line-clamp: 4;
+}
