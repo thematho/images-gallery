@@ -8,17 +8,24 @@ $border-radius:.2rem;
   position: absolute;
   width:100%;
   height: $header-height;
+  z-index: 10;
   color: $header-text-color;
   border-radius: $border-radius;
 }
 
-.gallery-header__logo {
-  display: inline;
+.gallery-header__element {
+  position: absolute;
+  display: inline-block;
+}
+
+.gallery-header__element--logo {
+  left: 0;
   text-shadow: 1px 1px 6px black;
 }
 
-.gallery-header__menu {
-  display: inline;
+.gallery-header__element--menu {
+  left: 30rem;
+  right: 0;
 }
 
 .gallery-content {

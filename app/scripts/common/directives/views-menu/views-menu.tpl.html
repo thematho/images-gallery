@@ -11,10 +11,19 @@
 </div>
  -->
 
-<div class="menu menu__list">
-  <a class="menu__list__item h2 mstb"
-    ng-repeat="option in options"
-    ui-sref-active="active"
-    ui-sref={{::option.state}}
-    >{{::option.name}}</a>
+<div class="menu h2">
+  <div class="menu__list"
+    ng-animate="show"
+    ng-class="{'show': showMenu}">
+    <a class="menu__list__item mstb"
+      ng-repeat="option in options"
+      ui-sref-active="active h1"
+      ui-sref={{::option.state}}
+      >{{::option.name}}</a>
+  </div>
+  <div class="menu-button mrl btn btn-primary"
+    ng-click="toggleMenu()">
+    <span class="menu-button__icon fa fa-reorder fa-2x"
+      ng-class="{'fa-rotate-90': showMenu}"></span>
+  </div>
 </div>

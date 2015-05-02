@@ -93,6 +93,10 @@ module.exports = function(grunt) {
                 '/bower_components',
                 connect.static('./bower_components')
               ),
+               connect().use(
+                '/fonts',
+                connect.static('./bower_components/font-awesome/fonts')
+              ),
               connect.static(appConfig.app)
             ];
           }

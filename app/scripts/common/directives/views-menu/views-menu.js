@@ -8,6 +8,11 @@ angular.module('imagesGalleryApp.directives.viewsMenu', [])
       replace: true,
       scope: {
         options: '='
+      },
+      link: function($scope) {
+        $scope.toggleMenu = function() {
+          $scope.showMenu = !$scope.showMenu;
+        };
       }
     };
   });
