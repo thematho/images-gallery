@@ -30,10 +30,12 @@
 
     </div>
     <div class="gallery-content expand modal-body" ui-view="" ></div>
-    <div class="gallery-footer center-block center-text modal-footer bg-info"
+    <div class="gallery-footer modal-footer bg-info"
       title="Images are property of http://www.freeimages.co.uk"><!--
       removed Whitespaces
-      --><span>Images are property of freeimages if you want to use them please go to: </span><a href="http://www.freeimages.co.uk" rel="nofollow" target="_top" title="Click for the some of the best free photos on the web">Free Stock Photos</a>
+      <--><div class="gallery-footer__image-copyright">
+        <span>Images are property of freeimages if you want to use them please go to: </span><a href="http://www.freeimages.co.uk" rel="nofollow" target="_top" title="Click for the some of the best free photos on the web">Free Stock Photos</a></div>
+        <contact-footer class="gallery-footer__contact"></contact-footer>
     </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -84,6 +86,7 @@
         <script src="scripts/rotating-cube/rotating-cube-controller.js"></script>
         <!-- end controllers-->
         <!-- directives-->
+        <script src="scripts/common/directives/contact-footer/contact-footer.js"></script>
         <script src="scripts/common/directives/cube-image/cube-image.js"></script>
         <script src="scripts/common/directives/cube-page/cube-page.js"></script>
         <script src="scripts/common/directives/image-holder/image-holder.js"></script>

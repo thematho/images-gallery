@@ -26,6 +26,7 @@
   position: absolute;
   top: 0;
   opacity: 1;
+  color: $loading-color;
 }
 .image-holder__no-item--loaded {
   @include transition(opacity 1.5s linear);

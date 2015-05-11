@@ -47,5 +47,14 @@ $border-radius:.2rem;
   height: $footer-height;
   text-align: center;
   border-radius: $border-radius;
+}
+
+.gallery-footer__image-copyright {
+  float: left;
   font-size: 1rem;
+}
+.gallery-footer__contact{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
 }

@@ -15,3 +15,7 @@ div {
 .secondary-font {
   font-family: 'Helvetica', 'Open Sans', sans-serif !important;
 }
+
+body{
+  @extend .secondary-font;
+}

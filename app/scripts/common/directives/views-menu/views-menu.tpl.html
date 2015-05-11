@@ -17,7 +17,7 @@
     ng-class="{'show': showMenu}">
     <a class="menu__list__item mstb"
       ng-repeat="option in options"
-      ui-sref-active="active h1"
+      ui-sref-active="active"
       ui-sref={{::option.state}}
       >{{::option.name}}</a>
   </div>

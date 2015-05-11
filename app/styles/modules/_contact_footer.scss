@@ -1,0 +1,18 @@
+
+.contact-info {
+  display: inline-block
+}
+
+.contact-info__list {
+  margin: 0;
+  list-style: none;
+}
+
+.contact-info__list__item {
+  display: inline-block;
+  margin: 0 10px;
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
