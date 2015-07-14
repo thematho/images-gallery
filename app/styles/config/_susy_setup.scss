@@ -1,0 +1,11 @@
+
+$total-columns: 12rem;
+$column-width:  4rem;
+$gutter-width:  1rem;
+$grid-padding:  $gutter-width;
+
+@include border-box-sizing;
+
+$small:         30em;
+$medium:        47em;
+$large:         75em;
